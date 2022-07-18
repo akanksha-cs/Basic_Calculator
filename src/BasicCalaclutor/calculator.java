@@ -67,15 +67,9 @@ public class calculator {
 
 	      
 	      case "/":
-	    	  if(c !=0) {
 	    	  c = a / b;
 		      System.out.println(a + " / " + b + " = " + c);
-			}
-			else {
-				System.out.println("Division cant be performed as second number cant be zero");
-			}	
-			
-		    break;
+		      break;
 
 	      default:
 	        System.out.println("Invalid operator!");
